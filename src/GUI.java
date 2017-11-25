@@ -53,8 +53,6 @@ public class GUI {
         panel1.add(Box.createVerticalGlue());
 
         jTextField.setAlignmentX(JComponent.CENTER_ALIGNMENT);
-        jTextField.setEnabled();
-        jTextField.setForeground(Color.BLACK);
         jTextField.setHorizontalAlignment(JTextField.CENTER);
         panel1.add(jTextField);
 

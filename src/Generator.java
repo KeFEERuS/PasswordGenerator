@@ -12,9 +12,9 @@ public class Generator {
             } else if (g == 2){
                 c = (char) symbol[(int) (Math.random() * 25)];
             } else if (g == 3) {
-                c = (char) ((int) (65 + (Math.random() * 25)));
+                c = (char) ((int) (65 + (Math.random() * 26)));
             } else {
-                c = (char) ((int) (97 + (Math.random() * 25)));
+                c = (char) ((int) (97 + (Math.random() * 26)));
             }
             password = password+ c;
         }
